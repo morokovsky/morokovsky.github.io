@@ -10,3 +10,8 @@ set :markdown, :fenced_code_blocks => true, :autolink => true, :smartypants => t
 
 configure :build do
 end
+
+activate :deploy do |deploy|
+  deploy.method = :git
+  deploy.branch = 'master'
+end
