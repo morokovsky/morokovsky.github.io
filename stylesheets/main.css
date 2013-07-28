@@ -27,3 +27,12 @@ body {
   display: inline-block;
   padding: 20px;
 }
+
+.navbar ul li:hover {
+  background-color: rgba(245, 141, 87, 0.4);
+}
+
+.navbar ul li a {
+  color: #eeeeee;
+  text-decoration: none;
+}
